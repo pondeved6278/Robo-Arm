@@ -1,0 +1,37 @@
+[0.010s] Invoking command in '/home/ved/arm_ws/build/Robo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ved/ros2_ws/install/my_robot_controller:/home/ved/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/ved/arm_ws/build/Robo_description -- -j16 -l16
+[0.052s] Invoked command in '/home/ved/arm_ws/build/Robo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ved/ros2_ws/install/my_robot_controller:/home/ved/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/ved/arm_ws/build/Robo_description -- -j16 -l16
+[0.060s] Invoking command in '/home/ved/arm_ws/build/Robo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ved/ros2_ws/install/my_robot_controller:/home/ved/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/ved/arm_ws/build/Robo_description
+[0.068s] -- Install configuration: ""
+[0.068s] -- Execute custom install script
+[0.068s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/display.launch.py
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/gazebo_launch.py
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/rviz.launch.py
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/state_publisher.launch.py
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo.gazebo
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo.trans
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo_macro.urdf.xacro
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/materials.xacro
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/robot.urdf
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/config/display.rviz
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link 2_2v1.stl
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link 3v1.stl
+[0.069s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link 4v1.stl
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link1_v1.stl
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/base_link.stl
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/worlds/room.sdf
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/package_run_dependencies/Robo_description
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/parent_prefix_path/Robo_description
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/path.sh
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/path.dsv
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.bash
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.sh
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.zsh
+[0.070s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.dsv
+[0.070s] -- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/package.dsv
+[0.079s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/packages/Robo_description
+[0.079s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/cmake/Robo_descriptionConfig.cmake
+[0.079s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/cmake/Robo_descriptionConfig-version.cmake
+[0.079s] -- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/package.xml
+[0.080s] Invoked command in '/home/ved/arm_ws/build/Robo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ved/ros2_ws/install/my_robot_controller:/home/ved/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/ved/arm_ws/build/Robo_description
