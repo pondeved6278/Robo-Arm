@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+WARNING: Package name "Robo_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ved/arm_ws/build/Robo_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/display.launch.py
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/gazebo_launch.py
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/rviz.launch.py
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/state_publisher.launch.py
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo.gazebo
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo.trans
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo_macro.urdf.xacro
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/materials.xacro
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/robot.urdf
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/config/display.rviz
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link1_v1.stl
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link3_v1.stl
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link4_v1.stl
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/base_link.stl
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/link2_2.stl
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/worlds/room.sdf
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/package_run_dependencies/Robo_description
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/parent_prefix_path/Robo_description
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/path.sh
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/path.dsv
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.bash
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.sh
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.zsh
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.dsv
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/package.dsv
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/packages/Robo_description
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/cmake/Robo_descriptionConfig.cmake
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/cmake/Robo_descriptionConfig-version.cmake
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/package.xml
