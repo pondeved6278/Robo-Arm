@@ -1,0 +1,33 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/display.launch.py
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/gazebo_launch.py
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/rviz.launch.py
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/launch/state_publisher.launch.py
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo.gazebo
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo.trans
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/Robo_macro.urdf.xacro
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/materials.xacro
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/urdf/robot.urdf
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/config/display.rviz
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link1_v1.stl
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link3_v1.stl
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/Link4.stl
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/base_link.stl
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/meshes/skibidi.stl
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/worlds/room.sdf
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/package_run_dependencies/Robo_description
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/parent_prefix_path/Robo_description
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/path.sh
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/environment/path.dsv
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.bash
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.sh
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.zsh
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/local_setup.dsv
+-- Symlinking: /home/ved/arm_ws/install/Robo_description/share/Robo_description/package.dsv
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/ament_index/resource_index/packages/Robo_description
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/cmake/Robo_descriptionConfig.cmake
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/cmake/Robo_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/ved/arm_ws/install/Robo_description/share/Robo_description/package.xml
