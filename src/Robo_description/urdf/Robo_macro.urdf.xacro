@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<robot name="robo" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:macro name="robo" params="prefix">
+
+  <xacro:include filename="$(find Robo_description)/urdf/materials.xacro" />
+  <xacro:include filename="$(find Robo_description)/urdf/Robo.trans" />
+  <xacro:include filename="$(find Robo_description)/urdf/Robo.gazebo" />
+
+  <!-- base link -->
+  <link name="${prefix}base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://Robo_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="robo_color2"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://Robo_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- link1 -->
+  <link name="${prefix}link1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://Robo_description/meshes/Link1_v1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="robo_color2"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://Robo_description/meshes/Link1_v1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- link2 -->
+  <link name="${prefix}link2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://Robo_description/meshes/rand.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="robo_color2"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://Robo_description/meshes/rand.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- link3 -->
+  <link name="${prefix}link3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file:///home/ved/arm_ws/src/Robo_description/meshes/Link3_v1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="robo_color2"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file:///home/ved/arm_ws/src/Robo_description/meshes/Link3_v1.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- link4 -->
+  <link name="${prefix}link4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://Robo_description/meshes/Link4.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="robo_color2"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://Robo_description/meshes/Link4.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- ========================== JOINTS =========================== -->
+
+  <!-- Joint 1 -->
+  <joint name="${prefix}joint1" type="continuous">
+    <origin xyz="0 0.162 0" rpy="0 0 0"/>
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}link1"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  
+  <!-- Joint 2 -->
+  <joint name="${prefix}joint2" type="revolute">
+    <origin xyz="0 0.245 -0.15" rpy="0 0 0"/>
+    <parent link="${prefix}link1"/>
+    <child link="${prefix}link2"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.0472" upper="1.13446" effort="100" velocity="100"/>
+  </joint>
+
+  <!-- Joint 3 -->
+  <joint name="${prefix}joint3" type="revolute">
+    <origin xyz="-0.1 0.75 0.15" rpy="0 0 0"/>
+    <parent link="${prefix}link2"/>
+    <child link="${prefix}link3"/>
+    <axis xyz="0 0 1"/>
+    <limit upper="1.0472" lower="-2.0944" effort="100" velocity="100"/>
+  </joint>
+
+  <!-- Joint 4 -->
+  <joint name="${prefix}joint4" type="revolute">
+    <origin xyz="0.427443 0 0" rpy="0 0 0"/>
+    <parent link="${prefix}link3"/>
+    <child link="${prefix}link4"/>
+    <axis xyz="0 0 1"/>
+    <limit upper="1.65806" lower="-2.70526" effort="100" velocity="100"/>
+  </joint>
+
+</xacro:macro>
+
+<xacro:robo prefix=""/>
+
+</robot>
+
